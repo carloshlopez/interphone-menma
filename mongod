@@ -1,0 +1,1 @@
+mongod --bind_ip=$IP --port=8081 --dbpath=data --nojournal --smallfiles --rest "$@"

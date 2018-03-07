@@ -60,7 +60,7 @@ var users = [];
 var db = null;
 
 // connect to the database
-mongo.connect(process.env.MONGODB_URI || 'mongodb://menma: menma@ds121588.mlab.com:21588/heroku_rjjx353w', (err, d) => {
+mongo.connect(process.env.MONGODB_URI || 'mongodb://carloshlopez-interphone-menma-5976146:8081', (err, d) => {
 	if (err) {
 		return console.log(err);
 	}
