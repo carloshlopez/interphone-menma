@@ -19,8 +19,8 @@ var JWT_SECRET = process.env.JWT_SECRET || 'THIS IS THE SUPER SECRET JWT FOR INT
 var S3_BUCKET = process.env.S3_BUCKET || 'interphone-menma';
 
 // these are digested by aws and should be set in your environment vars, or here
-process.env.AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID || 'AKIAJFF3XSHYSVLGKHDA';
-process.env.AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY || '4EeXg2Dw96VLIZa+DZvUhE0uxTKXTWu36hZ12OBU';
+process.env.AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
+process.env.AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
 
 
 
